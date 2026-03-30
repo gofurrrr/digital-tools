@@ -2,7 +2,7 @@ import React from "react";
 import shopingcart from "../assets/shopping-cart-01.png"
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm w-10/12  mx-auto">
+        <div className="navbar bg-base-100 w-10/12  mx-auto">
   <div className="flex-1">
     <a className="btn btn-ghost text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
   </div>
@@ -26,10 +26,8 @@ const Navbar = () => {
         <div className=" ">
           <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-3xl p-5">Primary</button>
         </div>
-      
-     
+        
     </div>
-  
 </div>
     );
 }
