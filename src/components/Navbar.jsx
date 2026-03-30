@@ -2,12 +2,12 @@ import React from "react";
 import shopingcart from "../assets/shopping-cart-01.png"
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 w-10/12  mx-auto">
+        <div className="navbar bg-base-100 w-10/12  mx-auto ">
   <div className="flex-1">
-    <a className="btn btn-ghost text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
+    <a className="btn btn-ghost  text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
   </div>
 
-  <div className="flex-2 space-x-4  pl-70">
+  <div className="flex-2 space-x-4  pl-60">
         <button className="text-xl font-normal">Products</button>
         <button className="text-xl font-normal">Features</button>
         <button className="text-xl font-normal">Pricing</button>
