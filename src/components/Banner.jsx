@@ -4,7 +4,7 @@ import bannerpic from "../assets/banner.png";
 const banner = () => {
     return (
        
-<section class="bg-white py-12 md:py-25 px-6 md:px-12 lg:px-24 w-10/12  mx-auto">
+<section class="bg-white py-12 md:py-25 px-6 md:px-12 lg:px-24 w-10/12 mx-auto">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
     
     <div class="w-full md:w-1/2 space-y-6 order-1">
