@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Stats from "./components/stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
+import About from "./components/About";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Stats />
       <Steps />
       <Pricing />
+      <About/>
     </>
   );
 }
