@@ -23,7 +23,7 @@ const banner = () => {
 
       <div class="flex flex-wrap gap-4 pt-4">
         <button class="px-8 py-3 bg-[#8B1CFF] text-white font-semibold rounded-full hover:bg-[#6a12c7] hover:scale-105 transition-all shadow-lg shadow-purple-200 active:scale-95">Explore Products </button>      
-        <button class="flex items-center gap-2 px-12 py-3  border-2 border-purple-200 text-purple-600 font-semibold rounded-full hover:bg-purple-500 hover:text-white hover:border-purple-600 transition-all active:scale-95">Watch Demo</button>
+        <button class="flex items-center gap-2 px-12 py-3  border-2 border-purple-200 text-purple-600 font-semibold rounded-full hover:bg-purple-500 hover:text-white hover:border-purple-600 transition-all active:scale-95 animate-pulse">Watch Demo</button>
       </div>
     </div>
 
