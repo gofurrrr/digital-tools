@@ -4,6 +4,8 @@ import Stats from "./components/stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import About from "./components/About";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
       <Steps />
       <Pricing />
       <About/>
+      <Footer/>
     </>
   );
 }
