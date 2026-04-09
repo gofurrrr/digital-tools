@@ -33,17 +33,23 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 "
+          
           aria-label="Products"
           defaultChecked
           onClick={() => setActiveTab("mains")}
+          className="tab rounded-full w-40 
+               text-black border-1 border-purple-100
+               checked:bg-gradient-to-r from-[#4F39F6] to-[#9514FA] checked:text-white"
         />
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 "
+         
           aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab("cart")}
+          className="tab rounded-full w-40 
+               text-black border-1 border-purple-100
+               checked:bg-gradient-to-r from-[#4F39F6] to-[#9514FA] checked:text-white"
         />
       </div>
 
