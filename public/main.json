@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "ResumePro",
+    "description": "Build resumes",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Templates", "ATS", "PDF"],
+    "icon": "https://www.resumefast.io/logo.png"
+  },
+  {
+    "id": 2,
+    "name": "TaskFlow",
+    "description": "Manage tasks",
+    "price": 0,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Kanban", "Team", "Reminders"],
+    "icon": "https://www.ecom-ex.com/fileadmin/user_upload/applib/Taskflow/taskflow_logo.png"
+  },
+  {
+    "id": 3,
+    "name": "DesignKit",
+    "description": "UI kit",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Components", "Figma", "Dark mode"],
+    "icon": "https://acolorstory.com/wp-content/themes/acs/assets/img/adk-logo.png"
+  },
+  {
+    "id": 4,
+    "name": "CodeMaster",
+    "description": "Code editor",
+    "price": 5,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Highlight", "Extensions", "Git"],
+    "icon": "https://images.seeklogo.com/logo-png/61/2/codemasters-logo-png_seeklogo-619127.png"
+  },
+  {
+    "id": 5,
+    "name": "CloudSafe",
+    "description": "Cloud storage",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["1TB", "Secure", "Sharing"],
+    "icon": "https://static.vecteezy.com/system/resources/thumbnails/072/950/944/small/3d-cloud-security-icon-white-cloud-with-blue-shield-and-yellow-lock-isolated-on-transparent-background-free-png.png"
+  },
+  {
+    "id": 6,
+    "name": "Learnify",
+    "description": "Online courses",
+    "price": 49,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Courses", "Certificates", "Offline"],
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/4d/e6/c34de60b-af99-c95f-4e5f-407feb84f9cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png"
+  },
+  {
+    "id": 7,
+    "name": "SocialBoost",
+    "description": "Post scheduler",
+    "price": 12,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Auto post", "Analytics", "Multi-platform"],
+    "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/61bb308c098da6c3b73c58a1/0x0.png"
+  },
+  {
+    "id": 8,
+    "name": "FinanceTrack",
+    "description": "Track money",
+    "price": 19,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Expenses", "Budget", "Reports"],
+    "icon": "https://static.vecteezy.com/system/resources/thumbnails/023/251/413/small/growth-revenue-icons-png.png"
+  },
+  {
+    "id": 9,
+    "name": "AI Writer",
+    "description": "Write with AI",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI", "SEO", "Multi-language"],
+    "icon": "https://cdn.aptoide.com/imgs/b/3/9/b3970464aa0fa15c41f1e104b12790ec_icon.png"
+  }
+]

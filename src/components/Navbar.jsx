@@ -2,14 +2,14 @@ import React from "react";
 import shopingcart from "../assets/shopping-cart-01.png";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm max-w-7xl mx-auto  ">
-      <div className="flex-1">
-        <a className="btn btn-ghost  text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
-          DigiTools
-        </a>
-      </div>
+    <div className="navbar bg-base-100 max-w-7xl mx-auto ">
+      <div class="flex-1">
+    <a class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent cursor-pointer">
+      DigiTools
+    </a>
+  </div>
 
-      <div className="flex-2 space-x-5 md:flex items-center justify-center text-xl ">
+      <div className="flex-2 lg:flex items-center space-x-8 text-lg font-medium ">
         <button className="font-normal hover:text-gray-400 cursor-pointer">Products</button>
         <button className="font-normal hover:text-gray-400 cursor-pointer">Features</button>
         <button className="font-normal hover:text-gray-400 cursor-pointer">Pricing</button>
@@ -18,8 +18,8 @@ const Navbar = () => {
       </div>
 
       <div className=" flex items-center  gap-3 ml-20">
-        <img src={shopingcart} alt="" className="w-6" />
-        <button className="text-xl font-normal hover:text-gray-400 cursor-pointer">Login</button>
+        <img src={shopingcart} alt="" className="w-6"  />
+        <button className="text-xl font-semibold hover:text-gray-600 cursor-pointer">Login</button>
       </div>
 
       <div className="dropdown dropdown-end pl-3.5">

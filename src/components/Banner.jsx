@@ -34,7 +34,7 @@ const banner = () => {
           <div className="relative aspect-square rounded-2xl overflow-hidden border border-white  ">
             <img
               src={bannerpic}
-              alt=""
+              
               classNameName="w-full h-full object-cover"
             />
           </div>
